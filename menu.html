@@ -1,0 +1,201 @@
+
+
+<!-- Teaching example from http://www.mycookroom.ru/mywork/Leaff/Leaff-v1.4/Site/index-4.html -->
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<!--Menu Bar-->
+<div class="Menu">
+            
+    <ul>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+        <li><a href="Table Reservation.html">Table Reservation</a></li>
+        <li><a href="Home.html">Home</a></li>
+        </ul>
+<section id="popular" class="module">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="module-header wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                    <h2 class="module-title">Popular Dishes</h2>
+                    <h3 class="module-subtitle">Our most popular menu</h3>
+                </div>
+            </div>
+        </div><!-- .row -->
+
+        <div class="row">
+
+            <div class="col-sm-6">
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Chicken Briyani</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.200</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Handi Briyani</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.300</h4>
+                            <div class="menu-label">New</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Friedrice</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.160</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Polao</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.220</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">BBQ Chicken Kasa</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs. 180</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- .col-sm-6 -->
+
+            <div class="col-sm-6">
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Aloo Dum</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs. 120</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Veg Chowmein</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.80</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Egg Chowmein</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.110</h4>
+                            <div class="menu-label">Recommended</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Chicken Chowmein </h4>
+                        
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.140</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 class="menu-title">Chocolate Cone Ice Cream</h4>
+                            
+                        </div>
+                        <div class="col-sm-4 menu-price-detail">
+                            <h4 class="menu-price">Rs.50</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- .col-sm-6 -->
+
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 long-up text-center">
+                <a href="menu-simple.html" class="btn btn-custom-1">Order Now</a>
+            </div>
+        </div><!-- .row -->
+
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="devider">
+                </div>
+            </div>
+        </div><!-- .row -->
+
+    </div><!-- .container -->
+
+    
+</section>
+<script>
+    var QuantityBox = React.createClass({
+  getInitialState: function() {
+    return { value: 1 };
+  },
+  onDecrement: function(e) {
+    if (this.state.value <= 0) return;
+    this.setState({value: --this.state.value});
+  },
+  onIncrement: function(e) {
+    this.setState({value: ++this.state.value});
+  },    
+  render: function() {
+    return (
+      <div className="qty-box">
+        <span className="dec" onClick={this.onDecrement} onTouchStart={this.onDecrement}>–</span>
+        <span className="qty">{this.state.value}</span>
+        <span className="inc" onClick={this.onIncrement} onTouchStart={this.onIncrement}>+</span>
+      </div>
+    );
+  }
+});
+
+React.render(<QuantityBox />, document.body);
+</script>
